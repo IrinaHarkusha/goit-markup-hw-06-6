@@ -60,10 +60,10 @@ img {
 }
 @media only screen and (min-width: 768px) {
    .container {
-    width: 736px;
+    width: 768px;
   }
 }
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 1158px) {
    .container {
     width: 1158px;
     padding: 0 15px;
@@ -73,7 +73,7 @@ img {
 .section {
     padding: 96px 0;
 }
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 1158px) {
    .section {
     padding: 120px 0;
   }
@@ -167,32 +167,39 @@ img {
     line-height: 1.5;
     font-style: normal;
 }
-@media only screen and (min-width: 1200px) {
+@media only screen and (max-width: 767px) {
+    .item-link {
+    display: none;
+    }
+}
+@media only screen and (min-width: 768px) and (max-width: 1157px) {
+   .item-link{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+}
+@media only screen and (min-width: 1158px) {
    .item-link{
     display: flex;
     gap: 40px;
   }
 }
 
-@media only screen and (max-width: 767px) {
-   .item-link{
-    display: none;
-  }
-}
 
 @media only screen and (min-width: 768px) {
    .list-link{
     font-size: 12px;
     line-height: 1.17;
     letter-spacing: 0.03em;
-    padding: 16px 0;
     color: var(--brand-color);
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
 }
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 1158px) {
    .list-link{
-     padding: 24px 0;
+    padding: 24px 0;
+    font-size: 16px;
     letter-spacing: 0.02em;
   }
 }
@@ -230,7 +237,7 @@ img {
     padding: 112px 0;
   }
 }
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 1157px) {
     .banner {
         padding: 188px 0;
     }
@@ -251,12 +258,12 @@ img {
         background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/banner/people-tab@2x.jpg);
     }
 }
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 1158px) {
     .banner {
         background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/banner/people-deck.jpg);
     }
 }
-@media only screen and (min-width: 1200px) and (min-resolution: 192dpi) {
+@media only screen and (min-width: 1158px) and (min-resolution: 192dpi) {
     .banner {
         background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/banner/people-deck@2x.jpg);
     }
@@ -287,7 +294,7 @@ img {
     margin: 0 auto 36px auto;
   }
 }
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 1158px) {
     .banner-up {
      margin: 0 auto 48px auto;
     }
@@ -335,7 +342,7 @@ img {
     gap: 72px 24px;
   }
 }
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 1158px) {
    .list-wrapper{
     gap: 24px;
   }
@@ -344,7 +351,7 @@ img {
 .icon-wrapper {
     display: none;
 }
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 1158px) {
    .icon-wrapper{
     display: flex;
     align-items: center;
@@ -365,7 +372,7 @@ img {
     width: calc((100% - 24px * 1) / 2);
   }
 }
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 1158px) {
    .list-item{
     width: calc((100% - 24px * 3) / 4);
   }
@@ -382,7 +389,7 @@ img {
     text-align: left;
   }
 }
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 1158px) {
    .wrap-text{
     font-weight: 500;
     font-size: 20px;
@@ -397,7 +404,7 @@ img {
     font-weight: 500;
     letter-spacing: 0.02em;
 }
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 1158px) {
    .text{
     font-weight: 400;
   }
@@ -430,7 +437,7 @@ img {
     gap: 64px 24px;
   }
 }
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 1158px) {
    .wrapper-list{
     gap: 24px;
   }
@@ -442,10 +449,10 @@ img {
 }
 @media only screen and (min-width: 768px) {
    .card-wrap{
-    width: calc((100% - 1 * 24px) / 2);
+    width: 264px;
   }
 }
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 1158px) {
     .card-wrap {
         width: calc((100% - 3 * 24px) / 4);
     }
@@ -507,7 +514,7 @@ img {
     gap: 72px 24px;
   }
 }
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 1158px) {
     .wrap-pic {
         gap: 48px 24px;
     }
@@ -523,7 +530,7 @@ img {
     width: calc((100% - 1 * 24px) / 2);
   }
 }
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 1158px) {
     .pic-wrapper {
         width: calc((100% - 2 * 24px) / 3);
     }
@@ -575,7 +582,7 @@ img {
     padding: 96px 0;
     background-color: var(--secondary-color-text); 
 }
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 1158px) {
    .logo-title{
     padding: 100px 0;
   }
@@ -585,8 +592,9 @@ img {
     flex-wrap: wrap;
     align-items: baseline;
 }
-@media only screen and (min-width: 768px) and (max-width: 1199px) {
+@media only screen and (min-width: 768px) and (max-width: 1157px) {
     .footer-wrap {
+    margin-left: 108px;
     gap: 72px 24px;
     }
 }
@@ -596,7 +604,7 @@ img {
     
   }
 }
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 1158px) {
    .footer-container{
     margin-right: 120px;
   }
@@ -608,10 +616,11 @@ img {
 
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-@media only screen and (min-width: 1200px) {
-   .wrapper{
-    display: inline-block;
-  }
+@media only screen and (min-width: 768px) {
+    .wrapper {
+        justify-content: flex-start;
+
+    }
 }
 .wrapper:hover, .wrapper:focus {
     color: var(--color-hover);   
@@ -647,7 +656,7 @@ img {
     margin: 0 auto 72px auto;
   }
 }
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 1158px) {
    .social-media{
     margin-right: 80px;
   }
@@ -723,7 +732,7 @@ img {
     opacity: 0.3;
   }
 }
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 1158px) {
    .footer-input{
     opacity: 1;
   }
